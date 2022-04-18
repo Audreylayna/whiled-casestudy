@@ -23,9 +23,11 @@ body {
   font-size: small;
 }
 
-/* img {
-  width: 100%;
-} */
+img {
+  max-width: 100%;
+  height: auto;
+  /* outline: 5px solid black; */
+}
 
 
 /* Buttons */
