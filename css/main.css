@@ -22,3 +22,24 @@ body {
   font-family: var(--font-main);
   font-size: small;
 }
+
+
+/* Buttons */
+
+.button--small {
+  font-family: var(--font-main);
+  width: 18.5rem;
+  text-transform: uppercase;
+  letter-spacing: .8px;
+  font-size: 1em;
+}
+
+.bs--active {
+  color: var(--pinky-beige);
+  background-color: var(--denim);
+
+
+
+
+
+}
