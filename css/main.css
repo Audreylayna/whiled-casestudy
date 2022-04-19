@@ -21,9 +21,8 @@ html {
 }
 
 .container {
-  margin: 100%;
   margin: 0 auto;
-  padding: 1rem 1rem 1rem 2rem;
+  /* padding: 1rem 1rem 1rem 2rem; */
 }
 
 body {
@@ -32,9 +31,11 @@ body {
 
 .component__section {
   padding: 1.5rem 1rem 1rem 2rem;
+  margin: 0 auto;
+  /* width: 100%; */
 }
 
-.component__section:nth-child(even) {
+.component__section:nth-child(odd) {
   background-color: rgb(245, 245, 255);
 }
 
@@ -66,6 +67,14 @@ a {
   text-decoration: none;
 }
 
+.headline--main {
+  padding-left: 1.5rem;
+  padding-top: 1.5rem;
+}
+
+.subhead--component {
+  margin-bottom: .5rem;
+}
 
 .component__name {
   margin-top: .4rem;
@@ -87,7 +96,8 @@ svg {
 /* Sections */
 
 .component__container {
-  margin-top: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .screenshot__container {
@@ -97,13 +107,6 @@ svg {
 .component__screenshot, .component {
   margin-top: 1rem;
 }
-
-/* .component {
-  background-color: var(--pinky-beige);
-  padding: 1rem;
-  margin-top: 1rem;
-  width: fit-content;
-} */
 
 /* Buttons */
 
