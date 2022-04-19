@@ -6,7 +6,7 @@
         <title>Whiled | Component Library</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://use.typekit.net/aon8qmh.css">
         <link href="../css/normalize.css" rel="stylesheet" />
         <link href="../css/main.css" rel="stylesheet" />
@@ -14,24 +14,31 @@
 
     <body>
         <div class="container">
-            <h1>Web Components</h1>
+            <h1 class="headline--main">Whiled | Component Library</h1>
+            <h3 class="subhead--component">Buttons</h3>
 
-            <h2 class="component__name">Buttons</h2>
+            <div class="screenshot__container">
+                <img class="component__screenshot"
+                    srcset="images/buttons/button--small-active.png 2x" 
+                    src="images/buttons/button--small-active.png"
+                    alt="Active blue button"/>
 
-            <img class="component__screenshot"
-                srcset="images/buttons/button--small-active.png 2x" 
-                src="images/buttons/button--small-active.png"
-                alt="Active blue button"
-            />
-        
-            <div class="component">
-                <a href="#!" class="button--small bs--active"><span class="button__text">Learn More</span>
-                    <span class="button__arrow">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72.51 51" xml:space="preserve">
-                        <path d="m43.06 19.57 11.09 6.21-11.09 6.6m-27.63-6.4h38.73" stroke-width="1.5" stroke-miterlimit="10"/></svg>
-                    </span>
-                </a>
+                <h4 class="component__name">Active Small Button - screenshot</h4>
             </div>
+
+    
+            <div class="component__container">
+                <div class="component">
+                    <a href="#!" class="button--small bs--active"><span class="button__text">Learn More</span>
+                        <span class="button__arrow">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72.51 51" xml:space="preserve">
+                            <path d="m43.06 19.57 11.09 6.21-11.09 6.6m-27.63-6.4h38.73" stroke-width="1.5" stroke-miterlimit="10"/></svg>
+                        </span>
+                    </a>
+                </div>
+                <h4 class="component__name">Active Small Button - code</h4>
+            </div>
+            
 
 
 
