@@ -189,6 +189,7 @@ svg {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
   grid-template-rows: repeat(2 1fr);
+  border-bottom: 1px solid var(--cinnabar);
 }
 
 .header__callout {
@@ -210,13 +211,10 @@ svg {
 }
 
 .header__nav {
-  /* display: flex; */
-  justify-content: space-between;
-  /* justify-self: stretch; */
-  align-self: center;
-  padding-bottom: 2rem;
+  place-self: center stretch;
+  padding-bottom: 1rem;
+  grid-column: 2/-1;
   grid-row: 2/3;
-  grid-column: 2/3;
 }
 
 .header__nav ul {
@@ -224,9 +222,9 @@ svg {
   flex-direction: row;
   list-style-type: none;
   text-align: center;
-  padding: 0 20px;
+  padding-top: 20px;
   overflow: hidden;
-  border-bottom: 1px solid var(--cinnabar);
+  
 }
 
 .header__nav a {
@@ -239,9 +237,27 @@ svg {
   letter-spacing: .9px;
 }
 
+.header__bag {
+  grid-column: 3/4;
+  grid-row: 2/3;
+  align-self: center;
+  justify-self: end;
+}
+
+.header__bag a {
+  font-family: var(--font-body);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: .95rem;
+  letter-spacing: .9px;
+  margin-right: .75rem;
+}
+
 .header__logo {
   grid-column: 1/2;
   grid-row: 2/3;
   align-self: center;
-  justify-self: center;
+  justify-self: start;
+  margin-left: .75rem;
 }
