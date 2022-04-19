@@ -24,27 +24,46 @@ body {
 }
 
 img {
-  display: block;
   max-width: 100%;
-  height: auto;
+}
+
+svg {
+  display: inline-block;
+  /* vertical-align: right; */
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* Buttons */
 
 .button--small {
+  display: flex;
   font-family: var(--font-main);
-  width: 18.5rem;
+  justify-content: center;
+  align-items: center;
+  width: 293px;
+  height: 51px;
   text-transform: uppercase;
   letter-spacing: .8px;
   font-size: 1em;
+  letter-spacing: .8px;
+  
 }
 
 .bs--active {
+  display: flex;
   color: var(--pinky-beige);
   background-color: var(--denim);
+  align-items: center;
+}
 
-
-
-
-
+.button__arrow {
+ /* height: 3rem; */
+ width: 5rem;
+ fill: none;
+ stroke: var(--pinky-beige);
 }
