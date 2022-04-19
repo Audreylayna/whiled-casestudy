@@ -192,6 +192,10 @@ svg {
   border-bottom: 1px solid var(--cinnabar);
 }
 
+.header:hover {
+  background-color: var(--pinky-beige);
+}
+
 .header__callout {
   display: grid;
   grid-row: 1 / 2;
