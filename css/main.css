@@ -120,20 +120,36 @@ svg {
   text-transform: uppercase;
   letter-spacing: .9px;
   font-size: 1em;
+  padding-left: 25px;
+  margin: 0;
 }
-
 
 .bs--active {
   display: flex;
   color: var(--pinky-beige);
   background-color: var(--denim);
   align-items: center;
+  margin: 0;
 }
 
 .button__arrow {
   width: 5rem;
   fill: none;
   stroke: var(--pinky-beige);
-  padding: 0;
+  padding: 3px;
+  background-clip:content-box;
+}
+
+.bs--active:hover {
+  color: var(--denim);
+  background-color: var(--pinky-beige);
+  border: 1.5px solid var(--denim);
+}
+
+/* can't figure out how to increase the hover area of the arrow without increasing the arrow size */
+
+.button__arrow:hover {
+  display: block;
+  stroke: var(--denim);
 }
 
