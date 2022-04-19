@@ -81,6 +81,11 @@ a {
   font-size: .6rem;
 }
 
+.text-callout {
+  background-color: #78e3ec;
+  padding: 2px;
+}
+
 /* Images */
 
 img {
