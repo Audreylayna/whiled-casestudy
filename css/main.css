@@ -22,7 +22,6 @@ html {
 
 .container {
   margin: 0 auto;
-  /* padding: 1rem 1rem 1rem 2rem; */
 }
 
 body {
@@ -66,6 +65,10 @@ h4 {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+a:hover {
+  color: var(--yellow);
 }
 
 .headline--main {
@@ -187,7 +190,7 @@ svg {
 
 .header {
   display: grid;
-  grid-template-columns: 1fr 2fr 2fr;
+  grid-template-columns: 1fr 830.62px 2fr;
   grid-template-rows: repeat(2 1fr);
   border-bottom: 1px solid var(--cinnabar);
 }
@@ -215,9 +218,8 @@ svg {
 }
 
 .header__nav {
-  place-self: center stretch;
   padding-bottom: 1rem;
-  grid-column: 2/-1;
+  grid-column: 2/3;
   grid-row: 2/3;
 }
 
@@ -225,14 +227,15 @@ svg {
   display: flex;
   flex-direction: row;
   list-style-type: none;
-  text-align: center;
+  justify-content: space-between;
   padding-top: 20px;
   overflow: hidden;
+  padding-right: 1rem;
+  padding-left: 6rem;
   
 }
 
 .header__nav a {
-  margin-right: 80px;
   font-family: var(--font-body);
   text-transform: uppercase;
   text-decoration: none;
@@ -264,4 +267,9 @@ svg {
   align-self: center;
   justify-self: start;
   margin-left: .75rem;
+  margin-right: .75rem;
+}
+
+.header__logo:hover {
+ fill: var(--yellow);
 }
