@@ -140,20 +140,20 @@ svg {
   height: 51px;
   padding-left: 25px;
   margin: 0;
-  color: var(--pinky-beige);
-  background-color: var(--denim);
-}
-
-.button--small:hover {
   color: var(--denim);
   background-color: var(--pinky-beige);
   border: 1.5px solid var(--denim);
 }
 
+.button--small:hover {
+  color: var(--pinky-beige);
+  background-color: var(--denim);
+}
+
 .button__arrow {
   width: 5rem;
   fill: none;
-  stroke: var(--pinky-beige);
+  stroke: var(--denim);
   padding: 3px;
   background-clip:content-box;
 }
@@ -161,7 +161,8 @@ svg {
 /* can't figure out how to increase the hover area of the arrow without increasing the arrow size */
 .button__arrow:hover {
   display: block;
-  stroke: var(--denim);
+  stroke: var(--pinky-beige);
+  
 }
 
 .button--multi {
