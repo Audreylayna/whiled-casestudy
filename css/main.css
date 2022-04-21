@@ -286,7 +286,7 @@ svg {
   display: grid;
   grid-template-columns: minmax(1030px,1425px);
   grid-template-rows: minmax(400px,640px);
-  position: absolute;
+  position: relative;
   justify-items: center;
 }
 
