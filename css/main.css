@@ -106,7 +106,7 @@ svg {
   height: 100%;
 }
 
-/* Sections */
+/* Containers */
 
 .component__container {
   margin-top: 2rem;
@@ -188,6 +188,11 @@ svg {
 }
 
 /* Header */
+
+.header-complete{
+  position:absolute;
+  z-index: -2;
+}
 
 .header {
   display: grid;
@@ -274,3 +279,38 @@ svg {
 .header__logo:hover {
  fill: var(--yellow);
 }
+
+/* Hero Image */
+
+.hero-section {
+  display: grid;
+  grid-template-columns: minmax(1030px,1425px);
+  grid-template-rows: minmax(400px,640px);
+  position: absolute;
+  justify-items: center;
+}
+
+.hero-section__button {
+  position: absolute;
+  z-index: 1;
+  justify-self: center;
+  align-self: end;
+  padding-bottom: 40px;
+}
+
+.hero-section__background {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: minmax(400px,640px);
+  position: absolute;
+  z-index: -1;
+}
+
+.hero-section__image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
