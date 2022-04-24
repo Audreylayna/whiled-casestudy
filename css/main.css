@@ -44,19 +44,27 @@ h1, h2 {
   line-height: 1;
 }
 
-h3 {
+h3, h5 {
   font-family: var(--font-subhead);
+}
+
+h3 {
   font-weight: 300;
   font-size: 2.375rem;
   line-height: 1.25;
 }
 
+h5 {
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+
 h4 {
   font-family: var(--font-body);
   letter-spacing: .9px;
-  font-size: 1em;
+  font-size: 1rem;
   text-transform: uppercase;
-  font-weight: medium;
+  font-weight: 600;
 }
 
 a {
@@ -360,4 +368,22 @@ svg {
 
 .fa-txt {
   padding-bottom: 5rem;
+}
+
+/* Text Section Single */
+
+.text-section__text {
+  display: flex;
+  border-top: solid 1px var(--yellow);
+  align-items:flex-start;
+  padding: 1.5rem .5rem 2rem .5rem;
+}
+
+.text-section-single__headline {
+  width: 60%;
+  padding-left: 1.5rem;
+}
+
+.text-section-single__subhead {
+ margin: 0;
 }
