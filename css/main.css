@@ -375,15 +375,14 @@ svg {
 .text-section__text {
   display: flex;
   border-top: solid 1px var(--yellow);
-  align-items:flex-start;
-  padding: 1.5rem .5rem 2rem .5rem;
+  padding: 1.5rem 2rem 1.5rem 2rem;
 }
 
 .text-section-single__headline {
   width: 60%;
-  padding-left: 1.5rem;
 }
 
 .text-section-single__subhead {
  margin: 0;
+ text-align: right;
 }
