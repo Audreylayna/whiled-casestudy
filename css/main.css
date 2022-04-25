@@ -433,3 +433,41 @@ svg {
 .container_object {
   max-width: 1425px;
 }
+
+/* Featured Stories */
+
+.ft-story__wrapper {
+  border-top: 1px solid var(--yellow);
+  display: flex;
+  padding: 5rem 0;
+  margin: 0 2rem;
+}
+
+.ft-story__image {
+  width: 2000px;
+  height: 600px;
+  padding-right: 5rem;
+  position: relative;
+  object-fit: cover;
+}
+
+.ft-story__content {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  justify-content: space-between;
+  min-height: 40vw;
+}
+
+.ft-story__button {
+  margin-left: auto;
+}
+
+.feat-articles__headline {
+  word-wrap: break-word;
+  display: flex;
+}
+
+.ft-story__subhead {
+  padding-bottom: 3rem;
+}
