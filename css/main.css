@@ -76,6 +76,10 @@ a:hover {
   color: var(--yellow);
 }
 
+li, ul {
+  list-style-type: none;
+}
+
 .headline--main {
   padding-left: 1.5rem;
   padding-top: 1.5rem;
@@ -154,6 +158,10 @@ svg {
   display: flex;
   justify-content: center;
   align-items: center;
+ 
+}
+
+.button__text {
   letter-spacing: .9px;
   font-size: 1em;
   font-family: var(--font-body);
@@ -370,7 +378,7 @@ svg {
   padding-bottom: 5rem;
 }
 
-/* Text Section Single */
+/* Text Sections */
 
 .text-section__text {
   display: flex;
@@ -385,4 +393,43 @@ svg {
 .text-section-single__subhead {
  margin: 0;
  text-align: right;
+}
+
+.value-section__container {
+  display: flex;
+  border-top: solid 1px var(--yellow);
+}
+
+.value-section__block-grid {
+  display: flex;
+  margin: 0 1rem;
+  padding-left: 1rem;
+  min-width: 0;
+}
+
+.value-section__block-grid:nth-child(2) {
+  border-left: 1px solid var(--cinnabar);
+  border-right: 1px solid var(--denim);
+}
+
+.value-section__block {
+  display: flex;
+  padding-bottom: 5rem;
+  padding-right: 1rem;
+  min-width: 0;
+  justify-content: space-between;
+}
+
+.value-section__headline {
+  line-height: 1rem;
+  margin: 1rem 1rem 0 0;
+  width: 50vw;
+}
+
+.value-section__subhead {
+  margin: 1rem .5rem 0 0;
+}
+
+.container_object {
+  max-width: 1425px;
 }
