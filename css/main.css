@@ -328,7 +328,7 @@ svg {
   display: grid;
   grid-template-columns: repeat(2, minmax(auto, 50%));
   height: 100vh;
-  width: 100vw;
+  /* width: 100vw; */
 }
 
 .hero-section__image {
