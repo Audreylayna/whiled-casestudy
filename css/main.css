@@ -467,3 +467,25 @@ svg {
 .ft-story__subhead {
   padding-bottom: 3rem;
 }
+
+.fs-left__wrapper {
+  border-top: none;
+}
+
+.fs-left__image {
+  position: relative;
+  width: 35vw;
+  object-fit: cover;
+}
+
+.fs-left__content {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-right: 25rem;
+}
+
+.fs-left__button {
+  margin-right: auto;
+}
