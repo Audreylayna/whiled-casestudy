@@ -20,10 +20,6 @@ html {
   --font-subhead: "freight-text-pro", serif;
 }
 
-.container {
-  margin: 0 auto;
-}
-
 body {
   font-size: small;
 }
@@ -227,7 +223,7 @@ svg {
 .header {
   display: grid;
   grid-template-columns: 1fr 830.62px 2fr;
-  grid-template-rows: repeat(2 1fr);
+  grid-template-rows: repeat(2, 1fr);
   border-bottom: 1px solid var(--cinnabar);
 }
 
@@ -348,7 +344,7 @@ svg {
   margin-top: 2rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 1fr, 576px;
+  grid-template-rows: 1fr 576px;
 }
 
 .feat-articles__image-grid {
@@ -356,7 +352,7 @@ svg {
   justify-content: space-between;
   gap: 5px;
   grid-column: 1/-1;
-  grid-template-rows: 2/3;
+  grid-row: 2/3;
   max-width: 1265px;
 }
 
@@ -511,7 +507,7 @@ svg {
   align-content: space-between;
 }
 
-#featured-products__images {
+.featured-products__images-single {
   max-width: 50%;
 }
 
