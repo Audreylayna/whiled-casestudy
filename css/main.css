@@ -226,7 +226,7 @@ svg {
 
 .header {
   display: grid;
-  grid-template-columns: 1fr 830.62px 2fr;
+  grid-template-columns: 1fr 2fr 2fr;
   grid-template-rows: repeat(2, 1fr);
   border-bottom: 1px solid var(--cinnabar);
   position: absolute;
@@ -252,12 +252,13 @@ svg {
 }
 
 .header__callout__text {
-
   justify-self: center;
 }
 
 .header__nav {
-  padding-top: 1rem;
+  grid-column: 2/3;
+  align-self: center;
+  padding-bottom: .5rem;
 }
 
 .header__nav ul {
@@ -282,10 +283,10 @@ svg {
 
 .header__bag {
   grid-column: 3/4;
-  grid-row: 2/3;
   justify-self: end;
-  padding-top: 1rem;
-  padding-right: .75rem;
+  align-self: center;
+  padding-bottom: .5rem;
+  padding-right: 1rem;
 }
 
 .header__bag a {
@@ -300,12 +301,11 @@ svg {
 
 .header__logo {
   grid-column: 1/2;
-  grid-row: 2/3;
-  padding-top: .75rem;
-  padding-bottom: 1rem;
-  padding-left: .75rem;
-  margin-left: .75rem;
-  margin-right: .75rem;
+  justify-self: start;
+  max-width: 400px;
+  min-width: 100px;
+  padding-bottom: .5rem;
+  padding-left: 1rem;
 }
 
 .header__logo:hover {
