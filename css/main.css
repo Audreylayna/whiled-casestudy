@@ -226,7 +226,7 @@ svg {
 
 .header {
   display: grid;
-  grid-template-columns: 1fr 2fr 2fr;
+  grid-template-columns: 1fr 3fr 2fr;
   grid-template-rows: repeat(2, 1fr);
   border-bottom: 1px solid var(--cinnabar);
   position: absolute;
@@ -266,10 +266,9 @@ svg {
   flex-direction: row;
   list-style-type: none;
   justify-content: space-between;
-  overflow: hidden;
   padding-right: 1rem;
   padding-left: 6rem;
-  
+  align-self: flex-end;
 }
 
 .header__nav a {
